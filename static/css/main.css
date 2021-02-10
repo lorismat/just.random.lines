@@ -1,0 +1,40 @@
+/* 
+ *
+ * CSS VARIABLES 
+ *
+ * 		*/
+
+
+:root {
+}
+
+body {
+	font-family: var(--bs-font-monospace);
+}
+
+footer {
+	font-family: var(--bs-font-sans-serif);
+}
+
+div {
+}
+
+.frame {
+	margin: 0 auto;
+	height: 70vh;
+	max-width: 800px;
+	border: 2px solid #000;
+}
+
+#myCanvas {
+	height: 100%;
+	max-width: 100%;
+}
+
+.about-content {
+	max-width: 400px;
+}
+
+#refresh {
+	cursor: pointer;
+}
