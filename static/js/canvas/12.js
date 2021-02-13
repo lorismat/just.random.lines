@@ -17,9 +17,4 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  fill("#000");
-  stroke("#009944");
-  strokeWeight(20);
-  rect(0,0,W,H);
 }

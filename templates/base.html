@@ -13,7 +13,6 @@
     <!-- Bootstrap core -->
     <link href="../static/css/lib/bootstrap.min.css" rel="stylesheet">
     <script src="../static/js/lib/bootstrap.min.js"></script>
-    <script src="../static/js/lib/bootstrap.bundle.min.js"></script>
 
     <!-- Main CSS -->
     <link href="../static/css/main.css" rel="stylesheet">
@@ -25,9 +24,15 @@
 
 <body>
 
+		<svg viewBox="0 0 100 100" class="line">
+			<rect x="-50" y="50" width="200" height="0.3"/>	
+			</svg>
     <div class="container">
-        <div class="fs-3 py-3 pb-5 text-center">
-            {% if not incoming %} just random lines {% else %} just random lines<br><br>
+        <div class="fs-3 py-4 pb-5 text-center">
+					<span class="p-2 title">
+						{% if not incoming %} <a href="/">just random lines</a> {% else %} just random lines
+					</span>
+					<br><br>
             <span class="fs-6">is changing... new version coming soon</span> {% endif %}
         </div>
 
@@ -48,9 +53,7 @@
                         {% endif %}
             </div>
             <div class="col-2 text-center pt-2">
-                <a id="refresh">
-                    <i class="fs-3 bi bi-arrow-clockwise"></i>
-                </a>
+                    <i id="refresh" class="fs-3 bi bi-arrow-clockwise"></i>
             </div>
             <div class="col-4 px-2 pt-3 text-center">
                 {% if next != null %}

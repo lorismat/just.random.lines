@@ -27,6 +27,9 @@ let particles = [];
 let flowfield = [];
 
 $("#refresh").click(function() {
+	xoff = random(100);
+	yoff = random(10);
+	zoff = random(50);
 	setup();
 });
 
