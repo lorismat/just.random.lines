@@ -1,5 +1,5 @@
 // inspiration:
-// Daniel Shiffman's Flow Field
+// Daniel Shiffman's Blobby 
 // https://thecodingtrain.com/CodingChallenges/036-blobby.html 
 // ---
 

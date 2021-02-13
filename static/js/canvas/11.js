@@ -1,4 +1,3 @@
-
 const dims = document.getElementById('myCanvas').getBoundingClientRect();
 
 const W = dims.width;

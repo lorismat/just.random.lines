@@ -1,4 +1,4 @@
-// inspiration
+// inspiration:
 // Daniel Shiffman's Flow Field
 // https://thecodingtrain.com/CodingChallenges/024-perlinnoiseflowfield.html
 // ---

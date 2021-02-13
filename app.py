@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 # for local testing purposes
-test = True 
+test = False 
 
 # if working on an update
 incoming = False 
