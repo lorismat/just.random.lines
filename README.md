@@ -1,6 +1,7 @@
 # just random lines
 
-[justrandomlines.com](http://www.justrandomlines.com/)  
+I closed the live version of the website on January 10th, 2023 due to Heroku changes in their terms.  
+Feel free to get your local copy or check the code!   
 
 _A sandbox collecting some experimentations with_ `p5.js` 
 

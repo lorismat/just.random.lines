@@ -24,7 +24,7 @@ setup = function() {
 
 draw = function() {
 
-    background(0);
+    background("#351c75");
 
     noiseSeed(99)
     translate(W / 2, H / 2)
